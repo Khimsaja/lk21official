@@ -293,5 +293,8 @@ app.use('/api/auth/*', async (c, next) => {
 });
 app.route(API_BASENAME, api);
 
-export default app;
+// @ts-expect-error - virtual module
+import * as serverBuild from 'virtual:react-router/server-build';
 
+export { serverBuild };
+export default app;
