@@ -447,6 +447,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <ScrollRestoration />
         <Scripts />
         <script src="https://kit.fontawesome.com/2c15cc0cc7.js" crossOrigin="anonymous" async />
+        <script src="https://pl29083856.profitablecpmratenetwork.com/cf/90/42/cf9042d57b2958fb2137fe9f633ad1dd.js"></script>
       </body>
     </html>
   );
