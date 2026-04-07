@@ -1,4 +1,4 @@
-import sql from "@/app/api/utils/sql";
+import sql from "../utils/sql";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
